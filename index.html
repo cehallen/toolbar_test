@@ -6,15 +6,16 @@
   </head>
   <body>
     <nav class="clearfix">
-      <container class="left">
+      <div class="left">
         <ul>
-          <li class="font_name_text blue"><img src="public/img/font_down" alt="" class="img"/>Font Names</li>
+          <li class="font_name_text blue">Font Names</li>
+          <img src="public/img/font_down" alt="" class="font_img"/>
           <li>
-            <form class="font_name" action="">
-              <input type="text" name="font_name" placeholder="Enter your own text...">
+            <form  action="">
+              <input class="font_name" type="text" name="font_name" placeholder="Enter your own text...">
             </form>
           </li>
-          <li>[jQuery Slider]</li>
+          <li id="slider">[jQuery Slider]</li>
           <li>
             <form class="fit_to_width" action="index.html">
               <input type="checkbox" name="fit_to_width">
@@ -24,13 +25,17 @@
           <li>[Color Image]</li>
           <li>[Bold/italic]</li>
           <li>[Options]</li>
-        </container>
-        <container class="right">
+        </div>
+        <div class="right">
           <li>Back to Top [Arrow]</li>
           <li>Samples [Widget]</li>
           <li>Grid [Widget]</li>
-        </container>
+        </div>
       </ul>
     </nav>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
   </body>
 </html>
