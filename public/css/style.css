@@ -1,15 +1,4 @@
-/* Clearfix */
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-.clearfix {
-    *zoom: 1;
-}
+
 
 /* Basic Styling */
 nav {
@@ -21,23 +10,11 @@ nav {
   letter-spacing: .065em;
 }
 
-nav ul {
-  text-align: center;
-  padding: 0;
-  list-style: none;
+.nav .div {
+  display: inline-block;
 }
 
-
-nav li {
-  display: inline;
-  vertical-align: center;
-}
-
-nav form {
-  display: inline;
-}
-
-.font_name_text {
+/* .font_name_text {
   font-size: .85em;
   padding: 6px 18px;
   -moz-border-radius: 2px;
@@ -56,4 +33,16 @@ nav form {
 
 .right {
   float: right;
+} */
+
+
+/* Selectmenu Styles */
+#selectmenu {
+  width: 9em;
+  background-color: blue;
+  color: rgb(250,250,250);
+  font-size: .85em;
+  padding
 }
+
+/* Slider Styles */
